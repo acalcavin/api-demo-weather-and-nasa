@@ -17,5 +17,7 @@ target/
 
 *.class
 
+bin/
+
 #hibernate
 hibernate.cfg.xml
