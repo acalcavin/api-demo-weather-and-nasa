@@ -12,9 +12,14 @@
 			Hello World!<br> <br>
 		</h2>
 		<h3>
-			<a href="welcome.html">Click here to see the welcome page</a>
-			(check HomeController.java to view info for @RequestMapping("/welcome"))
+			<a href="nasadata.html">Click here to see the NASA Data page (JSON)</a>
+			<br><br>
+			<a href="xmldata.html">Click here to see the Weather, using XML</a>
+			<br><br>
+			${centerData}
 		</h3>
+		
+		${jsonData}
 	</div>
 </body>
 </html>
